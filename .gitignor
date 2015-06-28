@@ -1,4 +1,4 @@
 *.ideas
 *.idea
 *.xml
-*.xls
+*.idea/workspace.xml
