@@ -8,7 +8,8 @@ class User:
 		self.firstname = firstname
 		self.lastname = lastername
 	def initials(self):
-		return "{}. {}.".format(self.firstname[0], self.lastname[0])
+		return"%s. %s." %( self.firstname[0], self.lastname[0])
+		#"{}. {}.".format(self.firstname[0], self.lastname[0])#2.7+
 
 	def __str__(self):
 		return self.firstname+" "+self.lastname
