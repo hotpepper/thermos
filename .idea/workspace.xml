@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34793238-dd5e-44c5-a1bc-dab9eb57467e" name="Default" comment="adds some data storage to add func and redirects back to index when sucessful">
-      <change type="DELETED" beforePath="C:\Users\Seth\Desktop\Courses\pluralsight\thermos\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Seth\Desktop\Courses\pluralsight\thermos\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Seth\Desktop\Courses\pluralsight\thermos\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Seth\Desktop\Courses\pluralsight\thermos\.idea\thermos.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Seth\Desktop\Courses\pluralsight\thermos\.idea\vcs.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thermos.iws" />
