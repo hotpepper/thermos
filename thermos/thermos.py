@@ -1,27 +1,33 @@
-from flask import Flask, render_template, url_for
-#html template from http://www.initializr.com/
+from datetime import datetime
+from flask import Flask, render_template, request, redirect, url_for
 
-app= Flask(__name__)
+from logging import DEBUG
 
-class User:
-	def __init__(self, firstname, lastername):
-		self.firstname = firstname
-		self.lastname = lastername
-	def initials(self):
-		return"%s. %s." %( self.firstname[0], self.lastname[0])
-		#"{}. {}.".format(self.firstname[0], self.lastname[0])#2.7+
+# html template from http://www.initializr.com/
+app = Flask(__name__)
+app.logger.setLevel(DEBUG)
 
-	def __str__(self):
-		return self.firstname+" "+self.lastname
+bookmarks = []
+
+def store_bookmark(url):
+	bookmarks.append(dict(
+		url = url,
+		user = 'hotpepper',
+		date = datetime.utcnow()
+	))
 
 @app.route('/')
 @app.route('/index')
 def index():
-	return render_template('index.html',
-						   title='Title passed from view template',
-						   user=User("Seth","Hotpepper"))
-@app.route('/add')
+	return render_template('index.html')
+
+@app.route('/add', methods=['GET', 'POST'])
 def add():
+	if request.method == 'POST':
+		url = request.form['url']
+		store_bookmark(url)
+		app.logger.debug('stored url: ' + url)
+		return redirect(url_for('index'))
 	return render_template('add.html')
 
 @app.errorhandler(404)
