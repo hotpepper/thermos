@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34793238-dd5e-44c5-a1bc-dab9eb57467e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thermos/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thermos/templates/404.html" afterPath="$PROJECT_DIR$/thermos/templates/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thermos/templates/add.html" afterPath="$PROJECT_DIR$/thermos/templates/add.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thermos/templates/index.html" afterPath="$PROJECT_DIR$/thermos/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thermos/thermos.py" afterPath="$PROJECT_DIR$/thermos/thermos.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thermos.iws" />
@@ -38,8 +40,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/thermos/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5300926">
-              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.27546296">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thermos/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,6 +84,7 @@
         <option value="$PROJECT_DIR$/thermos/templates/add.html" />
         <option value="$PROJECT_DIR$/thermos/thermos.py" />
         <option value="$PROJECT_DIR$/thermos/templates/index.html" />
+        <option value="$PROJECT_DIR$/thermos/templates/base.html" />
       </list>
     </option>
   </component>
@@ -384,7 +397,13 @@
       <option name="project" value="LOCAL" />
       <updated>1435516996321</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adds url_for for link to add page">
+      <created>1435517370956</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1435517370956</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -437,7 +456,8 @@
     <MESSAGE value="passes first values to html with render template" />
     <MESSAGE value="pass object to template&#10;" />
     <MESSAGE value="adds start of add page" />
-    <option name="LAST_COMMIT_MESSAGE" value="adds start of add page" />
+    <MESSAGE value="adds url_for for link to add page" />
+    <option name="LAST_COMMIT_MESSAGE" value="adds url_for for link to add page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -476,10 +496,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/thermos/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thermos/templates/500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thermos/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5300926">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.27546296">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
