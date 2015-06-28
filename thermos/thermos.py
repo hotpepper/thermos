@@ -21,6 +21,7 @@ def store_bookmark(url):
 def index():
 	return render_template('index.html')
 
+
 @app.route('/add', methods=['GET', 'POST'])
 def add():
 	if request.method == 'POST':
