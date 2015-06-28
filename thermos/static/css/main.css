@@ -70,12 +70,12 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #0D3E5B;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #0D3E5B;
 }
 
 .header-container,
@@ -153,8 +153,22 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+a {
+    color: #8F540D;
+}
 
+a:hover {
+    color: #D39447;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: #1E5373;
+}
 
+.main {
+    fotter h3{
+    color: white;
+    }
+}
 
 
 
